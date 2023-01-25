@@ -1,0 +1,17 @@
+.icon {
+    width: 45px;
+	height: 45px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+  }
+
+  .company-title-image{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .pop-box { transition: all .2s ease-in-out; border-radius: 2%;}
+  .pop-box:hover { transform: scale(1.1);  border: 3px solid #BAC964;
+    color: #BAC964; }
